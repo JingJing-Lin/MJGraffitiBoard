@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		604A9F08208585E90005308C /* MXRBoardSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 604A9F07208585E90005308C /* MXRBoardSettingView.m */; };
+		604A9F0E208587B90005308C /* MXRBoardSettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604A9F0D208587B90005308C /* MXRBoardSettingView.xib */; };
+		604A9F14208591570005308C /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 604A9F13208591570005308C /* UIView+Frame.m */; };
+		604A9F1D208595840005308C /* MXRDrawCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 604A9F1C208595840005308C /* MXRDrawCommon.m */; };
+		6057BFC9208491FA00718424 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057BFC8208491FA00718424 /* AppDelegate.m */; };
+		6057BFCC208491FA00718424 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057BFCB208491FA00718424 /* ViewController.m */; };
+		6057BFCF208491FA00718424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6057BFCD208491FA00718424 /* Main.storyboard */; };
+		6057BFD1208491FA00718424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6057BFD0208491FA00718424 /* Assets.xcassets */; };
+		6057BFD4208491FA00718424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6057BFD2208491FA00718424 /* LaunchScreen.storyboard */; };
+		6057BFD7208491FA00718424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057BFD6208491FA00718424 /* main.m */; };
+		6057BFE1208491FA00718424 /* MXRGraffitiBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057BFE0208491FA00718424 /* MXRGraffitiBoardTests.m */; };
+		6057BFEC208491FA00718424 /* MXRGraffitiBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057BFEB208491FA00718424 /* MXRGraffitiBoardUITests.m */; };
+		6057BFFB208492B900718424 /* MXRGraffitiBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057BFFA208492B900718424 /* MXRGraffitiBoardViewController.m */; };
+		6057BFFF2084986400718424 /* MXRPaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057BFFE2084986400718424 /* MXRPaintingView.m */; };
+		6057C00220849A8300718424 /* MXRPaintingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057C00120849A8300718424 /* MXRPaintingLayer.m */; };
+		6057C0082084A49900718424 /* MXRImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057C0072084A49900718424 /* MXRImageManager.m */; };
+		6057C00B2084ACF300718424 /* MXRBaseBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057C00A2084ACF300718424 /* MXRBaseBrush.m */; };
+		6057C00E2084AE9200718424 /* MXRPencilBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057C00D2084AE9200718424 /* MXRPencilBrush.m */; };
+		607F5F5D2086D113008DC231 /* MXRRectangleBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F5F5C2086D113008DC231 /* MXRRectangleBrush.m */; };
+		607F5F602086D67A008DC231 /* MXREllipseBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F5F5F2086D67A008DC231 /* MXREllipseBrush.m */; };
+		607F5F632086E43B008DC231 /* MXRCycleBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F5F622086E43B008DC231 /* MXRCycleBrush.m */; };
+		607F5F662086E5F1008DC231 /* MXRSquareBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F5F652086E5F1008DC231 /* MXRSquareBrush.m */; };
+		607F5F6B2086E757008DC231 /* MXRLineBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F5F6A2086E757008DC231 /* MXRLineBrush.m */; };
+		607F5F6E2086E88E008DC231 /* MXRDashBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F5F6D2086E88E008DC231 /* MXRDashBrush.m */; };
+		607F5F712086EAD1008DC231 /* MXRArrowBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F5F702086EAD1008DC231 /* MXRArrowBrush.m */; };
+		608D00332085F85F0090A5ED /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 608D001D2085F85F0090A5ED /* Info.plist */; };
+		608D00342085F85F0090A5ED /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D00202085F85F0090A5ED /* MJExtensionConst.m */; };
+		608D00352085F85F0090A5ED /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D00222085F85F0090A5ED /* MJFoundation.m */; };
+		608D00362085F85F0090A5ED /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D00242085F85F0090A5ED /* MJProperty.m */; };
+		608D00372085F85F0090A5ED /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D00262085F85F0090A5ED /* MJPropertyKey.m */; };
+		608D00382085F85F0090A5ED /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D00282085F85F0090A5ED /* MJPropertyType.m */; };
+		608D00392085F85F0090A5ED /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D002A2085F85F0090A5ED /* NSObject+MJClass.m */; };
+		608D003A2085F85F0090A5ED /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D002C2085F85F0090A5ED /* NSObject+MJCoding.m */; };
+		608D003B2085F85F0090A5ED /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D002E2085F85F0090A5ED /* NSObject+MJKeyValue.m */; };
+		608D003C2085F85F0090A5ED /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D00302085F85F0090A5ED /* NSObject+MJProperty.m */; };
+		608D003D2085F85F0090A5ED /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D00322085F85F0090A5ED /* NSString+MJExtension.m */; };
+		608D0040208600770090A5ED /* MXREraserBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D003F208600770090A5ED /* MXREraserBrush.m */; };
+		608D0045208605BB0090A5ED /* ZYQAssetPicker.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = 608D0042208605BA0090A5ED /* ZYQAssetPicker.Bundle */; };
+		608D0046208605BB0090A5ED /* ZYQAssetPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D0044208605BA0090A5ED /* ZYQAssetPickerController.m */; };
+		608DFFF12085E61B0090A5ED /* MXRBallColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 608DFFF02085E61B0090A5ED /* MXRBallColorModel.m */; };
+		608DFFF92085EA9E0090A5ED /* MXRWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 608DFFF82085EA9E0090A5ED /* MXRWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6057BFDD208491FA00718424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6057BFBC208491FA00718424 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6057BFC3208491FA00718424;
+			remoteInfo = MXRGraffitiBoard;
+		};
+		6057BFE8208491FA00718424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6057BFBC208491FA00718424 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6057BFC3208491FA00718424;
+			remoteInfo = MXRGraffitiBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		604A9F06208585E90005308C /* MXRBoardSettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRBoardSettingView.h; sourceTree = "<group>"; };
+		604A9F07208585E90005308C /* MXRBoardSettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRBoardSettingView.m; sourceTree = "<group>"; };
+		604A9F0D208587B90005308C /* MXRBoardSettingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MXRBoardSettingView.xib; sourceTree = "<group>"; };
+		604A9F12208591570005308C /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		604A9F13208591570005308C /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		604A9F1B208595840005308C /* MXRDrawCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRDrawCommon.h; sourceTree = "<group>"; };
+		604A9F1C208595840005308C /* MXRDrawCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRDrawCommon.m; sourceTree = "<group>"; };
+		6057BFC4208491FA00718424 /* MXRGraffitiBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXRGraffitiBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6057BFC7208491FA00718424 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6057BFC8208491FA00718424 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6057BFCA208491FA00718424 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6057BFCB208491FA00718424 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6057BFCE208491FA00718424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6057BFD0208491FA00718424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6057BFD3208491FA00718424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6057BFD5208491FA00718424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6057BFD6208491FA00718424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6057BFDC208491FA00718424 /* MXRGraffitiBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXRGraffitiBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6057BFE0208491FA00718424 /* MXRGraffitiBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRGraffitiBoardTests.m; sourceTree = "<group>"; };
+		6057BFE2208491FA00718424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6057BFE7208491FA00718424 /* MXRGraffitiBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXRGraffitiBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6057BFEB208491FA00718424 /* MXRGraffitiBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRGraffitiBoardUITests.m; sourceTree = "<group>"; };
+		6057BFED208491FA00718424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6057BFF9208492B900718424 /* MXRGraffitiBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRGraffitiBoardViewController.h; sourceTree = "<group>"; };
+		6057BFFA208492B900718424 /* MXRGraffitiBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRGraffitiBoardViewController.m; sourceTree = "<group>"; };
+		6057BFFD2084986400718424 /* MXRPaintingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRPaintingView.h; sourceTree = "<group>"; };
+		6057BFFE2084986400718424 /* MXRPaintingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRPaintingView.m; sourceTree = "<group>"; };
+		6057C00020849A8300718424 /* MXRPaintingLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRPaintingLayer.h; sourceTree = "<group>"; };
+		6057C00120849A8300718424 /* MXRPaintingLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRPaintingLayer.m; sourceTree = "<group>"; };
+		6057C00420849B9000718424 /* MXRPaintBrush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRPaintBrush.h; sourceTree = "<group>"; };
+		6057C0062084A49900718424 /* MXRImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRImageManager.h; sourceTree = "<group>"; };
+		6057C0072084A49900718424 /* MXRImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRImageManager.m; sourceTree = "<group>"; };
+		6057C0092084ACF300718424 /* MXRBaseBrush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRBaseBrush.h; sourceTree = "<group>"; };
+		6057C00A2084ACF300718424 /* MXRBaseBrush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRBaseBrush.m; sourceTree = "<group>"; };
+		6057C00C2084AE9200718424 /* MXRPencilBrush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRPencilBrush.h; sourceTree = "<group>"; };
+		6057C00D2084AE9200718424 /* MXRPencilBrush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRPencilBrush.m; sourceTree = "<group>"; };
+		607F5F5B2086D113008DC231 /* MXRRectangleBrush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRRectangleBrush.h; sourceTree = "<group>"; };
+		607F5F5C2086D113008DC231 /* MXRRectangleBrush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRRectangleBrush.m; sourceTree = "<group>"; };
+		607F5F5E2086D67A008DC231 /* MXREllipseBrush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXREllipseBrush.h; sourceTree = "<group>"; };
+		607F5F5F2086D67A008DC231 /* MXREllipseBrush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXREllipseBrush.m; sourceTree = "<group>"; };
+		607F5F612086E43B008DC231 /* MXRCycleBrush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRCycleBrush.h; sourceTree = "<group>"; };
+		607F5F622086E43B008DC231 /* MXRCycleBrush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRCycleBrush.m; sourceTree = "<group>"; };
+		607F5F642086E5F1008DC231 /* MXRSquareBrush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRSquareBrush.h; sourceTree = "<group>"; };
+		607F5F652086E5F1008DC231 /* MXRSquareBrush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRSquareBrush.m; sourceTree = "<group>"; };
+		607F5F692086E757008DC231 /* MXRLineBrush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRLineBrush.h; sourceTree = "<group>"; };
+		607F5F6A2086E757008DC231 /* MXRLineBrush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRLineBrush.m; sourceTree = "<group>"; };
+		607F5F6C2086E88E008DC231 /* MXRDashBrush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRDashBrush.h; sourceTree = "<group>"; };
+		607F5F6D2086E88E008DC231 /* MXRDashBrush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRDashBrush.m; sourceTree = "<group>"; };
+		607F5F6F2086EAD1008DC231 /* MXRArrowBrush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRArrowBrush.h; sourceTree = "<group>"; };
+		607F5F702086EAD1008DC231 /* MXRArrowBrush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRArrowBrush.m; sourceTree = "<group>"; };
+		608D001D2085F85F0090A5ED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608D001E2085F85F0090A5ED /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		608D001F2085F85F0090A5ED /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		608D00202085F85F0090A5ED /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		608D00212085F85F0090A5ED /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		608D00222085F85F0090A5ED /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		608D00232085F85F0090A5ED /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		608D00242085F85F0090A5ED /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		608D00252085F85F0090A5ED /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		608D00262085F85F0090A5ED /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		608D00272085F85F0090A5ED /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		608D00282085F85F0090A5ED /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		608D00292085F85F0090A5ED /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		608D002A2085F85F0090A5ED /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		608D002B2085F85F0090A5ED /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		608D002C2085F85F0090A5ED /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		608D002D2085F85F0090A5ED /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		608D002E2085F85F0090A5ED /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		608D002F2085F85F0090A5ED /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		608D00302085F85F0090A5ED /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		608D00312085F85F0090A5ED /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		608D00322085F85F0090A5ED /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		608D003E208600770090A5ED /* MXREraserBrush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXREraserBrush.h; sourceTree = "<group>"; };
+		608D003F208600770090A5ED /* MXREraserBrush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXREraserBrush.m; sourceTree = "<group>"; };
+		608D0042208605BA0090A5ED /* ZYQAssetPicker.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYQAssetPicker.Bundle; sourceTree = "<group>"; };
+		608D0043208605BA0090A5ED /* ZYQAssetPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQAssetPickerController.h; sourceTree = "<group>"; };
+		608D0044208605BA0090A5ED /* ZYQAssetPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQAssetPickerController.m; sourceTree = "<group>"; };
+		608DFFEF2085E61B0090A5ED /* MXRBallColorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRBallColorModel.h; sourceTree = "<group>"; };
+		608DFFF02085E61B0090A5ED /* MXRBallColorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRBallColorModel.m; sourceTree = "<group>"; };
+		608DFFF72085EA9E0090A5ED /* MXRWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXRWindow.h; sourceTree = "<group>"; };
+		608DFFF82085EA9E0090A5ED /* MXRWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXRWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6057BFC1208491FA00718424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057BFD9208491FA00718424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057BFE4208491FA00718424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6057BFBB208491FA00718424 = {
+			isa = PBXGroup;
+			children = (
+				6057BFC6208491FA00718424 /* MXRGraffitiBoard */,
+				6057BFDF208491FA00718424 /* MXRGraffitiBoardTests */,
+				6057BFEA208491FA00718424 /* MXRGraffitiBoardUITests */,
+				6057BFC5208491FA00718424 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6057BFC5208491FA00718424 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6057BFC4208491FA00718424 /* MXRGraffitiBoard.app */,
+				6057BFDC208491FA00718424 /* MXRGraffitiBoardTests.xctest */,
+				6057BFE7208491FA00718424 /* MXRGraffitiBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6057BFC6208491FA00718424 /* MXRGraffitiBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6057BFC7208491FA00718424 /* AppDelegate.h */,
+				6057BFC8208491FA00718424 /* AppDelegate.m */,
+				6057BFCA208491FA00718424 /* ViewController.h */,
+				6057BFCB208491FA00718424 /* ViewController.m */,
+				604A9F1B208595840005308C /* MXRDrawCommon.h */,
+				604A9F1C208595840005308C /* MXRDrawCommon.m */,
+				604A9F12208591570005308C /* UIView+Frame.h */,
+				604A9F13208591570005308C /* UIView+Frame.m */,
+				6057BFF9208492B900718424 /* MXRGraffitiBoardViewController.h */,
+				6057BFFA208492B900718424 /* MXRGraffitiBoardViewController.m */,
+				6057C0052084A48500718424 /* model */,
+				6057C00320849B6300718424 /* Brush */,
+				6057BFFC2084984500718424 /* Views */,
+				608D001C2085F85F0090A5ED /* MJExtension */,
+				608D0041208605BA0090A5ED /* ZYQAssetPickerController */,
+				6057BFCD208491FA00718424 /* Main.storyboard */,
+				6057BFD0208491FA00718424 /* Assets.xcassets */,
+				6057BFD2208491FA00718424 /* LaunchScreen.storyboard */,
+				6057BFD5208491FA00718424 /* Info.plist */,
+				6057BFD6208491FA00718424 /* main.m */,
+			);
+			path = MXRGraffitiBoard;
+			sourceTree = "<group>";
+		};
+		6057BFDF208491FA00718424 /* MXRGraffitiBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				6057BFE0208491FA00718424 /* MXRGraffitiBoardTests.m */,
+				6057BFE2208491FA00718424 /* Info.plist */,
+			);
+			path = MXRGraffitiBoardTests;
+			sourceTree = "<group>";
+		};
+		6057BFEA208491FA00718424 /* MXRGraffitiBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6057BFEB208491FA00718424 /* MXRGraffitiBoardUITests.m */,
+				6057BFED208491FA00718424 /* Info.plist */,
+			);
+			path = MXRGraffitiBoardUITests;
+			sourceTree = "<group>";
+		};
+		6057BFFC2084984500718424 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6057BFFD2084986400718424 /* MXRPaintingView.h */,
+				6057BFFE2084986400718424 /* MXRPaintingView.m */,
+				6057C00020849A8300718424 /* MXRPaintingLayer.h */,
+				6057C00120849A8300718424 /* MXRPaintingLayer.m */,
+				604A9F06208585E90005308C /* MXRBoardSettingView.h */,
+				604A9F07208585E90005308C /* MXRBoardSettingView.m */,
+				604A9F0D208587B90005308C /* MXRBoardSettingView.xib */,
+				608DFFF72085EA9E0090A5ED /* MXRWindow.h */,
+				608DFFF82085EA9E0090A5ED /* MXRWindow.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6057C00320849B6300718424 /* Brush */ = {
+			isa = PBXGroup;
+			children = (
+				607F5F682086E733008DC231 /* LIneBrush */,
+				607F5F672086E72A008DC231 /* RectBrush */,
+				6057C00420849B9000718424 /* MXRPaintBrush.h */,
+				6057C0092084ACF300718424 /* MXRBaseBrush.h */,
+				6057C00A2084ACF300718424 /* MXRBaseBrush.m */,
+				6057C00C2084AE9200718424 /* MXRPencilBrush.h */,
+				6057C00D2084AE9200718424 /* MXRPencilBrush.m */,
+				608D003E208600770090A5ED /* MXREraserBrush.h */,
+				608D003F208600770090A5ED /* MXREraserBrush.m */,
+			);
+			path = Brush;
+			sourceTree = "<group>";
+		};
+		6057C0052084A48500718424 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6057C0062084A49900718424 /* MXRImageManager.h */,
+				6057C0072084A49900718424 /* MXRImageManager.m */,
+				608DFFEF2085E61B0090A5ED /* MXRBallColorModel.h */,
+				608DFFF02085E61B0090A5ED /* MXRBallColorModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		607F5F672086E72A008DC231 /* RectBrush */ = {
+			isa = PBXGroup;
+			children = (
+				607F5F5B2086D113008DC231 /* MXRRectangleBrush.h */,
+				607F5F5C2086D113008DC231 /* MXRRectangleBrush.m */,
+				607F5F5E2086D67A008DC231 /* MXREllipseBrush.h */,
+				607F5F5F2086D67A008DC231 /* MXREllipseBrush.m */,
+				607F5F612086E43B008DC231 /* MXRCycleBrush.h */,
+				607F5F622086E43B008DC231 /* MXRCycleBrush.m */,
+				607F5F642086E5F1008DC231 /* MXRSquareBrush.h */,
+				607F5F652086E5F1008DC231 /* MXRSquareBrush.m */,
+			);
+			path = RectBrush;
+			sourceTree = "<group>";
+		};
+		607F5F682086E733008DC231 /* LIneBrush */ = {
+			isa = PBXGroup;
+			children = (
+				607F5F692086E757008DC231 /* MXRLineBrush.h */,
+				607F5F6A2086E757008DC231 /* MXRLineBrush.m */,
+				607F5F6C2086E88E008DC231 /* MXRDashBrush.h */,
+				607F5F6D2086E88E008DC231 /* MXRDashBrush.m */,
+				607F5F6F2086EAD1008DC231 /* MXRArrowBrush.h */,
+				607F5F702086EAD1008DC231 /* MXRArrowBrush.m */,
+			);
+			path = LIneBrush;
+			sourceTree = "<group>";
+		};
+		608D001C2085F85F0090A5ED /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				608D001D2085F85F0090A5ED /* Info.plist */,
+				608D001E2085F85F0090A5ED /* MJExtension.h */,
+				608D001F2085F85F0090A5ED /* MJExtensionConst.h */,
+				608D00202085F85F0090A5ED /* MJExtensionConst.m */,
+				608D00212085F85F0090A5ED /* MJFoundation.h */,
+				608D00222085F85F0090A5ED /* MJFoundation.m */,
+				608D00232085F85F0090A5ED /* MJProperty.h */,
+				608D00242085F85F0090A5ED /* MJProperty.m */,
+				608D00252085F85F0090A5ED /* MJPropertyKey.h */,
+				608D00262085F85F0090A5ED /* MJPropertyKey.m */,
+				608D00272085F85F0090A5ED /* MJPropertyType.h */,
+				608D00282085F85F0090A5ED /* MJPropertyType.m */,
+				608D00292085F85F0090A5ED /* NSObject+MJClass.h */,
+				608D002A2085F85F0090A5ED /* NSObject+MJClass.m */,
+				608D002B2085F85F0090A5ED /* NSObject+MJCoding.h */,
+				608D002C2085F85F0090A5ED /* NSObject+MJCoding.m */,
+				608D002D2085F85F0090A5ED /* NSObject+MJKeyValue.h */,
+				608D002E2085F85F0090A5ED /* NSObject+MJKeyValue.m */,
+				608D002F2085F85F0090A5ED /* NSObject+MJProperty.h */,
+				608D00302085F85F0090A5ED /* NSObject+MJProperty.m */,
+				608D00312085F85F0090A5ED /* NSString+MJExtension.h */,
+				608D00322085F85F0090A5ED /* NSString+MJExtension.m */,
+			);
+			name = MJExtension;
+			path = ../../MJDemo2/MJDemo2/MJExtension;
+			sourceTree = "<group>";
+		};
+		608D0041208605BA0090A5ED /* ZYQAssetPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				608D0042208605BA0090A5ED /* ZYQAssetPicker.Bundle */,
+				608D0043208605BA0090A5ED /* ZYQAssetPickerController.h */,
+				608D0044208605BA0090A5ED /* ZYQAssetPickerController.m */,
+			);
+			path = ZYQAssetPickerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6057BFC3208491FA00718424 /* MXRGraffitiBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6057BFF0208491FA00718424 /* Build configuration list for PBXNativeTarget "MXRGraffitiBoard" */;
+			buildPhases = (
+				6057BFC0208491FA00718424 /* Sources */,
+				6057BFC1208491FA00718424 /* Frameworks */,
+				6057BFC2208491FA00718424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXRGraffitiBoard;
+			productName = MXRGraffitiBoard;
+			productReference = 6057BFC4208491FA00718424 /* MXRGraffitiBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6057BFDB208491FA00718424 /* MXRGraffitiBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6057BFF3208491FA00718424 /* Build configuration list for PBXNativeTarget "MXRGraffitiBoardTests" */;
+			buildPhases = (
+				6057BFD8208491FA00718424 /* Sources */,
+				6057BFD9208491FA00718424 /* Frameworks */,
+				6057BFDA208491FA00718424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6057BFDE208491FA00718424 /* PBXTargetDependency */,
+			);
+			name = MXRGraffitiBoardTests;
+			productName = MXRGraffitiBoardTests;
+			productReference = 6057BFDC208491FA00718424 /* MXRGraffitiBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6057BFE6208491FA00718424 /* MXRGraffitiBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6057BFF6208491FA00718424 /* Build configuration list for PBXNativeTarget "MXRGraffitiBoardUITests" */;
+			buildPhases = (
+				6057BFE3208491FA00718424 /* Sources */,
+				6057BFE4208491FA00718424 /* Frameworks */,
+				6057BFE5208491FA00718424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6057BFE9208491FA00718424 /* PBXTargetDependency */,
+			);
+			name = MXRGraffitiBoardUITests;
+			productName = MXRGraffitiBoardUITests;
+			productReference = 6057BFE7208491FA00718424 /* MXRGraffitiBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6057BFBC208491FA00718424 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MXR;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = minjing.lin;
+				TargetAttributes = {
+					6057BFC3208491FA00718424 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6057BFDB208491FA00718424 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6057BFC3208491FA00718424;
+					};
+					6057BFE6208491FA00718424 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6057BFC3208491FA00718424;
+					};
+				};
+			};
+			buildConfigurationList = 6057BFBF208491FA00718424 /* Build configuration list for PBXProject "MXRGraffitiBoard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6057BFBB208491FA00718424;
+			productRefGroup = 6057BFC5208491FA00718424 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6057BFC3208491FA00718424 /* MXRGraffitiBoard */,
+				6057BFDB208491FA00718424 /* MXRGraffitiBoardTests */,
+				6057BFE6208491FA00718424 /* MXRGraffitiBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6057BFC2208491FA00718424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604A9F0E208587B90005308C /* MXRBoardSettingView.xib in Resources */,
+				6057BFD4208491FA00718424 /* LaunchScreen.storyboard in Resources */,
+				6057BFD1208491FA00718424 /* Assets.xcassets in Resources */,
+				608D00332085F85F0090A5ED /* Info.plist in Resources */,
+				6057BFCF208491FA00718424 /* Main.storyboard in Resources */,
+				608D0045208605BB0090A5ED /* ZYQAssetPicker.Bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057BFDA208491FA00718424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057BFE5208491FA00718424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6057BFC0208491FA00718424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607F5F5D2086D113008DC231 /* MXRRectangleBrush.m in Sources */,
+				607F5F6B2086E757008DC231 /* MXRLineBrush.m in Sources */,
+				6057BFCC208491FA00718424 /* ViewController.m in Sources */,
+				608D00342085F85F0090A5ED /* MJExtensionConst.m in Sources */,
+				607F5F6E2086E88E008DC231 /* MXRDashBrush.m in Sources */,
+				6057C0082084A49900718424 /* MXRImageManager.m in Sources */,
+				608DFFF12085E61B0090A5ED /* MXRBallColorModel.m in Sources */,
+				607F5F662086E5F1008DC231 /* MXRSquareBrush.m in Sources */,
+				608D003B2085F85F0090A5ED /* NSObject+MJKeyValue.m in Sources */,
+				608DFFF92085EA9E0090A5ED /* MXRWindow.m in Sources */,
+				6057C00220849A8300718424 /* MXRPaintingLayer.m in Sources */,
+				6057BFD7208491FA00718424 /* main.m in Sources */,
+				608D003D2085F85F0090A5ED /* NSString+MJExtension.m in Sources */,
+				608D00362085F85F0090A5ED /* MJProperty.m in Sources */,
+				608D00352085F85F0090A5ED /* MJFoundation.m in Sources */,
+				607F5F632086E43B008DC231 /* MXRCycleBrush.m in Sources */,
+				6057BFFB208492B900718424 /* MXRGraffitiBoardViewController.m in Sources */,
+				6057BFC9208491FA00718424 /* AppDelegate.m in Sources */,
+				604A9F08208585E90005308C /* MXRBoardSettingView.m in Sources */,
+				608D00382085F85F0090A5ED /* MJPropertyType.m in Sources */,
+				608D00392085F85F0090A5ED /* NSObject+MJClass.m in Sources */,
+				608D003A2085F85F0090A5ED /* NSObject+MJCoding.m in Sources */,
+				6057BFFF2084986400718424 /* MXRPaintingView.m in Sources */,
+				607F5F712086EAD1008DC231 /* MXRArrowBrush.m in Sources */,
+				608D00372085F85F0090A5ED /* MJPropertyKey.m in Sources */,
+				608D003C2085F85F0090A5ED /* NSObject+MJProperty.m in Sources */,
+				608D0040208600770090A5ED /* MXREraserBrush.m in Sources */,
+				604A9F1D208595840005308C /* MXRDrawCommon.m in Sources */,
+				6057C00B2084ACF300718424 /* MXRBaseBrush.m in Sources */,
+				6057C00E2084AE9200718424 /* MXRPencilBrush.m in Sources */,
+				607F5F602086D67A008DC231 /* MXREllipseBrush.m in Sources */,
+				604A9F14208591570005308C /* UIView+Frame.m in Sources */,
+				608D0046208605BB0090A5ED /* ZYQAssetPickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057BFD8208491FA00718424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6057BFE1208491FA00718424 /* MXRGraffitiBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057BFE3208491FA00718424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6057BFEC208491FA00718424 /* MXRGraffitiBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6057BFDE208491FA00718424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6057BFC3208491FA00718424 /* MXRGraffitiBoard */;
+			targetProxy = 6057BFDD208491FA00718424 /* PBXContainerItemProxy */;
+		};
+		6057BFE9208491FA00718424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6057BFC3208491FA00718424 /* MXRGraffitiBoard */;
+			targetProxy = 6057BFE8208491FA00718424 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6057BFCD208491FA00718424 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6057BFCE208491FA00718424 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6057BFD2208491FA00718424 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6057BFD3208491FA00718424 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6057BFEE208491FA00718424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6057BFEF208491FA00718424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6057BFF1208491FA00718424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW8EKH787L;
+				INFOPLIST_FILE = MXRGraffitiBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MXR.MXRGraffitiBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6057BFF2208491FA00718424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW8EKH787L;
+				INFOPLIST_FILE = MXRGraffitiBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MXR.MXRGraffitiBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6057BFF4208491FA00718424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MXRGraffitiBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MXR.MXRGraffitiBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXRGraffitiBoard.app/MXRGraffitiBoard";
+			};
+			name = Debug;
+		};
+		6057BFF5208491FA00718424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MXRGraffitiBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MXR.MXRGraffitiBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXRGraffitiBoard.app/MXRGraffitiBoard";
+			};
+			name = Release;
+		};
+		6057BFF7208491FA00718424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MXRGraffitiBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MXR.MXRGraffitiBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MXRGraffitiBoard;
+			};
+			name = Debug;
+		};
+		6057BFF8208491FA00718424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MXRGraffitiBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MXR.MXRGraffitiBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MXRGraffitiBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6057BFBF208491FA00718424 /* Build configuration list for PBXProject "MXRGraffitiBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6057BFEE208491FA00718424 /* Debug */,
+				6057BFEF208491FA00718424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6057BFF0208491FA00718424 /* Build configuration list for PBXNativeTarget "MXRGraffitiBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6057BFF1208491FA00718424 /* Debug */,
+				6057BFF2208491FA00718424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6057BFF3208491FA00718424 /* Build configuration list for PBXNativeTarget "MXRGraffitiBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6057BFF4208491FA00718424 /* Debug */,
+				6057BFF5208491FA00718424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6057BFF6208491FA00718424 /* Build configuration list for PBXNativeTarget "MXRGraffitiBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6057BFF7208491FA00718424 /* Debug */,
+				6057BFF8208491FA00718424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6057BFBC208491FA00718424 /* Project object */;
+}
